@@ -28,7 +28,6 @@ body {
 .btn-black:hover {
   color: var(--mainPink) !important;
   background-color: var(--mainBlack);
-  transition: 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .btn-pink:hover {
@@ -118,6 +117,7 @@ body {
 .banner-link:hover {
   background: var(--mainBlack);
   color: var(--mainPink);
+  transition: 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 @media (max-width: 770px) {
@@ -145,4 +145,63 @@ body {
 .about-img_container:hover::before {
   top: 0;
   left: 0;
+}
+
+@media (max-width: 500px) {
+  .filter-btn {
+    font-size: 0.7rem;
+  }
+}
+
+.store {
+  background: var(--mainGrey);
+}
+
+.search-box {
+  background: var(--mainPink);
+  color: var(--mainBlack);
+}
+
+.single-item {
+  transition: all 0.3s linear;
+}
+
+.single-item:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25), 0px 5px 7px rgba(0, 0, 0, 0.35);
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.store-img {
+  transition: all 1s ease-in-out;
+}
+
+.img-container:hover .store-img {
+  transform: scale(1.2);
+}
+
+.store-item-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.75rem;
+  background: #ffc304;
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+
+  border-top-left-radius: 1rem;
+  transition: all 1s ease-in-out;
+  transform: translate(100%, 100%);
+}
+
+.img-container:hover .store-item-icon {
+  transform: translate(0, 0);
+}
+
+.store-item-icon:hover {
+  color: var(--mainWhite);
 }
