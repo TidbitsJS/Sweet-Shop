@@ -219,3 +219,35 @@ body {
 .service-text {
   word-spacing: 0.5rem;
 }
+
+.footer-title {
+  background: var(--mainBlack);
+}
+
+.footer-shop {
+  background: linear-gradient(var(--yellowTrans), var(--yellowTrans)),
+    url("../images/headerBcg.jpeg") center/cover fixed no-repeat;
+}
+
+.footer-contact {
+  background: var(--mainGrey);
+}
+
+.footer-icons .footer-icon {
+  margin-top: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+  color: var(--mainBlack);
+  transition: all 0.4s ease-in-out;
+}
+
+.footer-icon:hover {
+  color: var(--mainPink);
+}
+
+.footer-icons .footer-icon:hover {
+  color: red;
+}
