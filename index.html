@@ -73,14 +73,14 @@
             </div>
 
             <div
-              id="card-info"
+              id="cart-info"
               class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5"
             >
               <span class="cart-info_icon mr-lg-2">
                 <i class="fas fa-shopping-cart"></i>
               </span>
               <p class="mb-0 text-capitalize">
-                <span id="item-count">21</span>
+                <span id="item-count">2</span>
                 <!-- items - $ -->
                 <!-- <span class="item-total"> 10.49 </span> -->
               </p>
@@ -100,6 +100,77 @@
               >explore</a
             >
           </div>
+
+          <!--Store Cart-->
+          <div class="cart" id="cart">
+            <div
+              class="cart-item d-flex justify-content-between text-capitalize my-3"
+            >
+              <img
+                src="imgCart/cake-2.jpeg"
+                class="img-fluid rounded-circle"
+                id="item-img"
+                alt="item01"
+              />
+              <div class="item-text">
+                <p id="cart-item-title" class="font-weight-bold mb-0">
+                  cart item
+                </p>
+                <span>$</span>
+                <span id="cart-item-price" class="cart-item-price mb-0"
+                  >10.99</span
+                >
+              </div>
+              <a href="#" id="cart-item-remove" class="cart-item-remove">
+                <i class="fas fa-trash"></i>
+              </a>
+            </div>
+
+            <div
+              class="cart-item d-flex justify-content-between text-capitalize my-3"
+            >
+              <img
+                src="imgCart/cupcake-2.jpeg"
+                class="img-fluid rounded-circle"
+                id="item-img"
+                alt="item01"
+              />
+              <div class="item-text">
+                <p id="cart-item-title" class="font-weight-bold mb-0">
+                  cart item
+                </p>
+                <span>$</span>
+                <span id="cart-item-price" class="cart-item-price mb-0"
+                  >15.99</span
+                >
+              </div>
+              <a href="#" id="cart-item-remove" class="cart-item-remove">
+                <i class="fas fa-trash"></i>
+              </a>
+            </div>
+
+            <div
+              class="cart-total-container d-flex justify-content-around text-capitalize mt-5"
+            >
+              <h5>total</h5>
+              <h5>
+                $
+                <strong id="cart-total" class="font-weight-bold">26.98</strong>
+              </h5>
+            </div>
+
+            <div
+              class="cart-buttons-container mt-3 d-flex justify-content-between"
+            >
+              <a href="#" id="clear-cart" class="btn btn-black text-uppercase"
+                >clear cart</a
+              >
+              <a href="#" id="clear-cart" class="btn btn-pink text-uppercase"
+                >checkout</a
+              >
+            </div>
+          </div>
+          <!--End of store cart-->
         </div>
       </div>
     </header>

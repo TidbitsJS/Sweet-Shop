@@ -251,3 +251,40 @@ body {
 .footer-icons .footer-icon:hover {
   color: red;
 }
+
+.cart {
+  position: absolute;
+  min-height: 10rem;
+  background: var(--mainWhite);
+  top: 0;
+  right: 0;
+  width: 0;
+  overflow: hidden;
+  transition: all 0.1s ease-in-out;
+  transform: translateY(-150%);
+}
+
+.show-cart {
+  width: 18rem;
+  padding: 2rem 1.5rem;
+  transform: none;
+  /* transform: rotate(-360deg); */
+}
+
+.cart-item-remove {
+  color: var(--mainPink);
+  transition: all 1s ease-in-out;
+}
+
+.cart-item {
+  transition: all 2s ease-in-out;
+}
+
+.cart-item-remove:hover {
+  transform: scale(1.1);
+  color: red;
+}
+
+.cart-item-price {
+  font-size: 0.8rem;
+}
