@@ -9,6 +9,10 @@
   --mainGrey: rgb(238, 238, 238);
 }
 
+.cssanimation span {
+  text-transform: initial !important;
+}
+
 body {
   font-family: "Kaushan Script", cursive;
   background: var(--mainWhite);

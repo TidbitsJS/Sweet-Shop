@@ -4,10 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
     <!-- bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!--CSS Letter Animation-->
+    <link rel="stylesheet" href="./css/cssanimation.min.css" />
+
+    <!--AOS CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- font awesome -->
     <link
@@ -92,9 +100,9 @@
       <div class="container-fluid">
         <div class="row max-height justify-content-center align-items-center">
           <div class="col-10 mx-auto banner text-center">
-            <h1 class="text-capitalize">
+            <h1 class="text-capitalize ">
               Welocome to
-              <strong class="banner-title">Grandma's</strong>
+              <strong class=" cssanimation leZoomIn sequence banner-title">Grandma's</strong>
             </h1>
             <a href="#store" class="btn banner-link text-uppercase my-2"
               >explore</a
@@ -178,7 +186,7 @@
     <section class="about py-5" id="about">
       <div class="container">
         <div class="row">
-          <div class="col-10 mx-auto col-md-6 my-5">
+          <div class="col-10 mx-auto col-md-6 my-5" data-aos="fade-right">
             <h1 class="text-capitalize">
               about
               <strong class="banner-title">Us</strong>
@@ -191,7 +199,7 @@
             </p>
             <a href="#" class="btn btn-black text-uppercase">more</a>
           </div>
-          <div class="col-10 mx-auto col-md-6 my-5 align-self-center">
+          <div class="col-10 mx-auto col-md-6 my-5 align-self-center" data-aos="fade-left">
             <div class="about-img_container">
               <img src="images/sweets-3.jpeg" class="img-fluid" alt="" />
             </div>
@@ -278,11 +286,12 @@
 
         <!-- Store Item -->
 
-        <div class="row store-items" id="store-items">
+        <div class="row store-items" id="store-items" >
           <!--Single store item-->
           <div
             class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets"
             data-item="sweets"
+            data-aos="fade-up"
           >
             <div class="card single-item">
               <div class="img-container">
@@ -315,6 +324,7 @@
           <div
             class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets"
             data-item="sweets"
+            data-aos="fade-up"
           >
             <div class="card single-item">
               <div class="img-container">
@@ -347,6 +357,7 @@
           <div
             class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets"
             data-item="sweets"
+            data-aos="fade-up"
           >
             <div class="card single-item">
               <div class="img-container">
@@ -379,6 +390,7 @@
           <div
             class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets"
             data-item="sweets"
+            data-aos="fade-up"
           >
             <div class="card single-item">
               <div class="img-container">
@@ -411,6 +423,7 @@
           <div
             class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets"
             data-item="sweets"
+            data-aos="fade-up"
           >
             <div class="card single-item">
               <div class="img-container">
@@ -443,6 +456,7 @@
           <div
             class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets"
             data-item="sweets"
+            data-aos="fade-up"
           >
             <div class="card single-item">
               <div class="img-container">
@@ -475,6 +489,7 @@
           <div
             class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets"
             data-item="sweets"
+            data-aos="fade-up"
           >
             <div class="card single-item">
               <div class="img-container">
@@ -507,6 +522,7 @@
           <div
             class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets"
             data-item="sweets"
+            data-aos="fade-up"
           >
             <div class="card single-item">
               <div class="img-container">
@@ -539,6 +555,7 @@
           <div
             class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets"
             data-item="sweets"
+            data-aos="fade-up"
           >
             <div class="card single-item">
               <div class="img-container">
@@ -571,6 +588,7 @@
           <div
             class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets"
             data-item="sweets"
+            data-aos="fade-up"
           >
             <div class="card single-item">
               <div class="img-container">
@@ -603,6 +621,7 @@
           <div
             class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets"
             data-item="sweets"
+            data-aos="fade-up"
           >
             <div class="card single-item">
               <div class="img-container">
@@ -635,6 +654,7 @@
           <div
             class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets"
             data-item="sweets"
+            data-aos="fade-up"
           >
             <div class="card single-item">
               <div class="img-container">
@@ -744,6 +764,7 @@
         <div class="row">
           <div
             class="col-11 mx-auto col-md-6 col-lg-4 my-4 text-center text-capitalize"
+            data-aos="zoom-in"
           >
             <h3 class="py-3">Birthday Cake</h3>
             <div class="text-muted">
@@ -765,6 +786,7 @@
 
           <div
             class="col-11 mx-auto col-md-6 col-lg-4 my-4 text-center text-capitalize"
+            data-aos="zoom-in"
           >
             <h3 class="py-3">Custom Cake</h3>
             <div class="text-muted">
@@ -786,6 +808,7 @@
 
           <div
             class="col-11 mx-auto col-md-6 col-lg-4 my-4 text-center text-capitalize"
+            data-aos="zoom-in"
           >
             <h3 class="py-3">Wedding Cake</h3>
             <div class="text-muted">
@@ -859,6 +882,10 @@
 
     <!-- jquery -->
     <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--CSS Letter Animation-->
+    <script src="./js/letteranimation.min.js"></script>
     <!-- bootstrap js -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <!-- script js -->
